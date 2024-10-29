@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main1.css' %}">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <img class="login-image" src="{% static 'Mobile_login-bro.png' %}" >
+        <div class="form-container">
+            <form method="post">
+                {% csrf_token %}
+                {{ form }}
+
+                <button type="submit">Sign Up</button>
+                <div class="login-link">
+                    <a href="/accounts/login/">Already Have Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!--
+the below approach is not working even after including  {% csrf_token %} in it. based on the below code 
+I have built a main1.css which is also applicable for the small working code above. 
+for example when I make changes into the main1.css then changes are getting reflected for the above code 
+so far it's cool and a good working signup page
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main1.css' %}">
+    <title>Sign Up</title>
+</head>
+<body>
+    
+    <div class="container">
+        <img class="login-image" src="{% static 'Mobile_login-bro.png' %}" >
+        <div class="form-container">
+            <form method="post">
+                {% csrf_token %}
+                <input type="hidden" name="csrfmiddlewaretoken" value="Bas9sdHvwWT6ynwpnKZeB3YCVNIYb7mihopV5pB0NQXhERZWL7TyBjUjJOK2Uht2">
+                
+                <label for="id_username">Username:</label>
+                <input type="text" name="username" maxlength="150" autofocus required id="id_username">
+                <br>
+                <span class="helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span><br>
+                
+                <label for="id_email">Email address:</label>
+                <input type="email" name="email" maxlength="254" id="id_email">
+                
+                <label for="id_name">Name:</label>
+                <input type="text" name="name" maxlength="200" required id="id_name">
+                
+                <label for="id_height">Height:</label>
+                <input type="number" name="height" step="0.01" id="id_height">
+                
+                <label for="id_weight">Weight:</label>
+                <input type="number" name="weight" step="0.01" id="id_weight">
+                
+                <label for="id_password1">Password:</label>
+                <input type="password" name="password1" autocomplete="new-password" required id="id_password1">
+                <br>
+                <span class="helptext">
+                    <ul>
+                        <li>Your password can’t be too similar to your other personal information.</li>
+                        <li>Your password must contain at least 8 characters.</li>
+                        <li>Your password can’t be a commonly used password.</li>
+                        <li>Your password can’t be entirely numeric.</li>
+                    </ul>
+                </span>
+                
+                <label for="id_password2">Password confirmation:</label>
+                <input type="password" name="password2" autocomplete="new-password" required id="id_password2">
+                <br>
+                <span class="helptext">Enter the same password as before, for verification.</span>
+                
+                <button type="submit">Sign Up</button>
+                <div class="login-link">
+                    <a href="/accounts/login/">Already Have Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+-->

@@ -1,0 +1,527 @@
+{
+    "categories": [
+      {
+        "category_name": "GENERAL FITNESS",
+        "workout_plan": [
+          {
+            "Day": "Day 1",
+            "Warm_up": {
+              "exercises": [
+                "Inchworm x 10 repetitions",
+                "Arm circles (forward and backward) x 15 repetitions each direction",
+                "High knees x 30 seconds"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Dumbbell rows (3 sets of 10 reps)",
+                "Overhead press (3 sets of 8 reps)",
+                "Crunches (3 sets of 12 reps)",
+                "Pull-ups (4 sets of 9 reps)",
+                "Plank (4 sets of 9 reps)",
+                "Dumbbell bench press (3 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Jogging", "Jumping rope"]
+          },
+          {
+            "Day": "Day 2",
+            "Warm_up": {
+              "exercises": [
+                "Butt kicks x 30 seconds",
+                "Plank hold for 30 seconds",
+                "Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Squats (4 sets of 10 reps)",
+                "Bicep curls (3 sets of 11 reps)",
+                "Dumbbell bench press (3 sets of 9 reps)",
+                "Push-ups (3 sets of 8 reps)",
+                "Pull-ups (4 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Cycling", "Running"]
+          },
+          {
+            "Day": "Day 3",
+            "Warm_up": {
+              "exercises": [
+                "Squats without weight x 15 repetitions",
+                "Lunges (walking forward and backward) x 10 repetitions per leg",
+                "Ankle circles (forward and backward) x 10 repetitions each direction"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Lunges (3 sets of 11 reps)",
+                "Russian twists (4 sets of 12 reps)",
+                "Plank (3 sets of 11 reps)",
+                "Calf raises (4 sets of 10 reps)",
+                "Crunches (3 sets of 10 reps)"
+              ]
+            },
+            "Cardio": ["Stair climbing", "Butt kicks"]
+          },
+          {
+            "Day": "Day 4",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+                "Chest stretch (hold for 30 seconds each side)",
+                "Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Push-ups (4 sets of 10 reps)",
+                "Plank (4 sets of 10 reps)",
+                "Russian twists (4 sets of 9 reps)",
+                "Crunches (3 sets of 10 reps)",
+                "Overhead press (4 sets of 9 reps)"
+              ]
+            },
+            "Cardio": ["Jogging", "Jumping rope"]
+          },
+          {
+            "Day": "Day 5",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+                "Chest stretch (hold for 30 seconds each side)",
+                "Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Plank (4 sets of 12 reps)",
+                "Russian twists (3 sets of 8 reps)",
+                "Dumbbell rows (3 sets of 11 reps)",
+                "Bicep curls (3 sets of 8 reps)",
+                "Crunches (4 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Cycling", "Running"]
+          },
+          {
+            "Day": "Day 6",
+            "Warm_up": {
+              "exercises": [
+                "Arm raises (lateral and front) x 15 repetitions each direction",
+                "Shoulder shrugs x 15 repetitions",
+                "Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Deadlifts (3 sets of 15 reps)",
+                "Crunches (3 sets of 13 reps)",
+                "Dumbbell rows (3 sets of 12 reps)",
+                "Lunges (4 sets of 14 reps)"
+              ]
+            },
+            "Cardio": ["Butt kicks", "Stair climbing"]
+          },
+          {
+            "Day": "Day 7",
+            "Rest": true
+          }
+        ]
+      },
+      {
+        "category_name": "WEIGHT GAIN",
+        "workout_plan": [
+          {
+            "Day": "Day 1",
+            "Warm_up": {
+              "exercises": [
+                "Arm raises (lateral and front) x 15 repetitions each direction",
+                "Shoulder shrugs x 15 repetitions",
+                "Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Squats (3 sets of 8 reps)",
+                "Dumbbell bench press (3 sets of 8 reps)",
+                "Deadlifts (4 sets of 10 reps)",
+                "Lunges (4 sets of 10 reps)",
+                "Calf raises (3 sets of 8 reps)",
+                "Dumbbell rows (3 sets of 9 reps)"
+              ]
+            },
+            "Cardio": ["Mountain climbers", "Lateral shuffle"]
+          },
+          {
+            "Day": "Day 2",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+                "Chest stretch (hold for 30 seconds each side)",
+                "Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Dumbbell rows (3 sets of 10 reps)",
+                "Push-ups (4 sets of 9 reps)",
+                "Pull-ups (3 sets of 8 reps)",
+                "Squats (4 sets of 11 reps)",
+                "Overhead press (4 sets of 8 reps)"
+              ]
+            },
+            "Cardio": ["Jumping rope", "Squat jump"]
+          },
+          {
+            "Day": "Day 3",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+                "Chest stretch (hold for 30 seconds each side)",
+                "Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Russian twists (4 sets of 12 reps)",
+                "Deadlifts (3 sets of 12 reps)",
+                "Lunges (3 sets of 11 reps)",
+                "Calf raises (4 sets of 10 reps)",
+                "Squats (4 sets of 9 reps)"
+              ]
+            },
+            "Cardio": ["Jogging", "Inchworm"]
+          },
+          {
+            "Day": "Day 4",
+            "Warm_up": {
+              "exercises": [
+                "Squats without weight x 15 repetitions",
+                "Lunges (walking forward and backward) x 10 repetitions per leg",
+                "Ankle circles (forward and backward) x 10 repetitions each direction"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Pull-ups (3 sets of 9 reps)",
+                "Russian twists (3 sets of 12 reps)",
+                "Crunches (3 sets of 8 reps)",
+                "Overhead press (4 sets of 11 reps)",
+                "Dumbbell bench press (4 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Jogging", "Jumping rope"]
+          },
+          {
+            "Day": "Day 5",
+            "Warm_up": {
+              "exercises": [
+                "Butt kicks x 30 seconds",
+                "Plank hold for 30 seconds",
+                "Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Crunches (3 sets of 9 reps)",
+                "Russian twists (4 sets of 11 reps)",
+                "Dumbbell rows (4 sets of 9 reps)",
+                "Squats (4 sets of 8 reps)",
+                "Bicep curls (4 sets of 10 reps)"
+              ]
+            },
+            "Cardio": ["Cycling", "Jumping rope"]
+          },
+          {
+            "Day": "Day 6",
+            "Warm_up": {
+              "exercises": [
+                "Inchworm x 10 repetitions",
+                "Arm circles (forward and backward) x 15 repetitions each direction",
+                "High knees x 30 seconds"
+
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Dumbbell rows (4 sets of 15 reps)",
+                "Calf raises (4 sets of 15 reps)",
+                "Deadlifts (3 sets of 13 reps)",
+                "Push-ups (3 sets of 15 reps)"
+              ]
+            },
+            "Cardio": ["Butt kicks", "Stair climbing"]
+          },
+          {
+            "Day": "Day 7",
+            "Rest": true
+          }
+        ]
+      },
+      {
+        "category_name": "WEIGHT LOSS",
+        "workout_plan": [
+          {
+            "Day": "Day 1",
+            "Warm_up": {
+              "exercises": [
+                "Butt kicks x 30 seconds",
+                "Plank hold for 30 seconds",
+                "Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Plank (4 sets of 9 reps)",
+                "Pull-ups (4 sets of 10 reps)",
+                "Dumbbell bench press (3 sets of 10 reps)",
+                "Push-ups (4 sets of 10 reps)",
+                "Lunges (3 sets of 12 reps)",
+                "Squats (4 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Cycling", "Walking"]
+          },
+          {
+            "Day": "Day 2",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+                "Chest stretch (hold for 30 seconds each side)",
+                "Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Push-ups (3 sets of 12 reps)",
+                "Dumbbell bench press (3 sets of 12 reps)",
+                "Dumbbell rows (4 sets of 12 reps)",
+                "Overhead press (3 sets of 9 reps)",
+                "Squats (4 sets of 9 reps)"
+              ]
+            },
+            "Cardio": ["Jumping rope", "Running"]
+          },
+          {
+            "Day": "Day 3",
+            "Warm_up": {
+              "exercises": [
+                "Inchworm x 10 repetitions",
+                "Arm circles (forward and backward) x 15 repetitions each direction",
+                "High knees x 30 seconds"
+
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Lunges (4 sets of 8 reps)",
+                "Plank (4 sets of 10 reps)",
+                "Calf raises (4 sets of 12 reps)",
+                "Crunches (4 sets of 10 reps)",
+                "Russian twists (3 sets of 8 reps)"
+              ]
+            },
+            "Cardio": ["Jogging", "Dancing"]
+          },
+          {
+            "Day": "Day 4",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+                "Chest stretch (hold for 30 seconds each side)",
+                "Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Pull-ups (3 sets of 9 reps)",
+                "Russian twists (3 sets of 12 reps)",
+                "Crunches (3 sets of 8 reps)",
+                "Overhead press (4 sets of 11 reps)",
+                "Dumbbell bench press (4 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Walking", "Jumping jacks"]
+          },
+          {
+            "Day": "Day 5",
+            "Warm_up": {
+              "exercises": [
+                "Arm raises (lateral and front) x 15 repetitions each direction",
+                "Shoulder shrugs x 15 repetitions",
+                "Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Crunches (3 sets of 9 reps)",
+                "Russian twists (4 sets of 11 reps)",
+                "Dumbbell rows (4 sets of 9 reps)",
+                "Squats (4 sets of 8 reps)",
+                "Bicep curls (4 sets of 10 reps)"
+              ]
+            },
+            "Cardio": ["Cycling", "Jumping rope"]
+          },
+          {
+            "Day": "Day 6",
+            "Warm_up": {
+              "exercises": [
+                "Squats without weight x 15 repetitions",
+                "Lunges (walking forward and backward) x 10 repetitions per leg",
+                "Ankle circles (forward and backward) x 10 repetitions each direction"
+
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Lunges (3 sets of 15 reps)",
+                "Dumbbell bench press (3 sets of 12 reps)",
+                "Deadlifts (3 sets of 12 reps)",
+                "Russian twists (4 sets of 14 reps)"
+              ]
+            },
+            "Cardio": ["Dancing", "Jogging"]
+          },
+          {
+            "Day": "Day 7",
+            "Rest": true,
+            "Cardio": ["Swimming"]
+          }
+        ]
+      },
+      {
+        "category_name": "MUSCLE BUILDING",
+        "workout_plan": [
+          {
+            "Day": "Day 1",
+            "Warm_up": {
+              "exercises": [
+                "Squats without weight x 15 repetitions",
+"Lunges (walking forward and backward) x 10 repetitions per leg",
+"Ankle circles (forward and backward) x 10 repetitions each direction"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Calf raises (3 sets of 9 reps)",
+                "Pull-ups (3 sets of 11 reps)",
+                "Russian twists (3 sets of 9 reps)",
+                "Dumbbell rows (3 sets of 8 reps)",
+                "Deadlifts (4 sets of 9 reps)",
+                "Overhead press (4 sets of 8 reps)"
+              ]
+            },
+            "Cardio": ["Jogging", "Walking"]
+          },
+          {
+            "Day": "Day 2",
+            "Warm_up": {
+              "exercises": [
+                "Inchworm x 10 repetitions",
+"Arm circles (forward and backward) x 15 repetitions each direction",
+"High knees x 30 seconds"
+
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Squats (4 sets of 11 reps)",
+                "Bicep curls (3 sets of 10 reps)",
+                "Dumbbell bench press (4 sets of 11 reps)",
+                "Overhead press (3 sets of 8 reps)",
+                "Push-ups (3 sets of 10 reps)"
+              ]
+            },
+            "Cardio": ["Jumping rope", "Cycling"]
+          },
+          {
+            "Day": "Day 3",
+            "Warm_up": {
+              "exercises": [
+                "Arm raises (lateral and front) x 15 repetitions each direction",
+"Shoulder shrugs x 15 repetitions",
+"Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Lunges (4 sets of 12 reps)",
+                "Plank (3 sets of 9 reps)",
+                "Crunches (4 sets of 11 reps)",
+                "Calf raises (4 sets of 10 reps)",
+                "Deadlifts (4 sets of 12 reps)"
+              ]
+            },
+            "Cardio": ["Jumping rope", "Mountain climbers"]
+          },
+          {
+            "Day": "Day 4",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+"Chest stretch (hold for 30 seconds each side)",
+"Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Plank (3 sets of 10 reps)",
+                "Russian twists (3 sets of 9 reps)",
+                "Push-ups (4 sets of 10 reps)",
+                "Dumbbell bench press (3 sets of 9 reps)",
+                "Pull-ups (3 sets of 11 reps)"
+              ]
+            },
+            "Cardio": ["Squat jump", "Stair climbing"]
+          },
+          {
+            "Day": "Day 5",
+            "Warm_up": {
+              "exercises": [
+                "Butt kicks x 30 seconds",
+"Plank hold for 30 seconds",
+"Bird-dog exercise x 10 repetitions per side"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Squats (3 sets of 8 reps)",
+                "Crunches (4 sets of 9 reps)",
+                "Plank (3 sets of 8 reps)",
+                "Russian twists (4 sets of 8 reps)",
+                "Bicep curls (4 sets of 10 reps)"
+              ]
+            },
+            "Cardio": ["Lateral shuffle", "Butt kicks"]
+          },
+          {
+            "Day": "Day 6",
+            "Warm_up": {
+              "exercises": [
+                "Wrist circles (forward and backward) x 10 repetitions each direction",
+"Chest stretch (hold for 30 seconds each side)",
+"Hamstring stretch (hold for 30 seconds each leg)"
+              ]
+            },
+            "Strength_Training": {
+              "exercises": [
+                "Bicep curls (3 sets of 13 reps)",
+                "Deadlifts (4 sets of 15 reps)",
+                "Plank (4 sets of 13 reps)",
+                "Lunges (4 sets of 13 reps)"
+              ]
+            },
+            "Cardio": ["Mountain climbers", "Jumping jacks"]
+          },
+          {
+            "Day": "Day 7",
+            "Rest": true,
+            "Cardio": ["Swimming"]
+          }
+        ]
+      }
+    ]
+  }
+  

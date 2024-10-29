@@ -1,0 +1,127 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FFF;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FFF;
+}
+.nav-item{
+    margin: 10px ;
+}
+navbar-light .navbar-nav .nav-link{
+    color: #FFF;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: rgb(187, 16, 16);
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    transition: width 1s;
+}
+.nav-link:hover::after{
+    width: 70%;
+}
+.nav-item{
+    margin: 10px ;
+}
+.f-one{
+    text-align: center;
+}
+.l1{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.username{
+    text-align: center;
+    background-color: black;
+}
+#id_username{
+    color: blue;
+}
+.links{
+    position: relative;
+}
+.links a{
+    text-decoration: none;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+}
+.links.first{
+    color: blue;
+    left: 200px;
+}
+.links .second{
+    color: red;
+    left: 110px;
+}
+
+
+
+#myChart1{
+    width: 200px;
+    height: 200px;
+}
+.main{
+margin-left: 43%;
+}
+.main label{
+    display: block;
+    font-size: 22px;
+    color: #0119F0;
+}
+#id_Breakfast,#id_Dinner,#id_Lunch,#id_Workouthome,#id_WakeEarly,#id_SleepEarly,#id_Run,#id_Gym{
+    margin: 10px;
+    display: block;
+    width: 200px;
+
+}
+.Home{
+    background-image: url(../static/pi2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.Home3{
+    background-image: url(../static/puzzz.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.Home2{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}

@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgba(251, 231, 204, 0.994);
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .card {
+        background-color: #B9C4A6; /* for white card behind small boxes */
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        
+    }
+    .card-body {
+        padding: 20px;
+        
+    }
+    .row {
+        /* Add your custom styles for row here */
+        display: flex;
+        /*flex-wrap: wrap; */
+        justify-content: space-between; /* Adjust as needed for the space between warmup strength, cardio boxes*/ 
+        padding: 10px;
+    }
+    
+    .col-md-4 {
+        /* Add your custom styles for col-md-4 here */
+        background-color: #f8f9fac6; /*for white cards */
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        text-align: center;
+        width: 350px; /* Define your desired width of warmup, strength, cardio boxes */
+        /*height: 200px; /* Define your desired height */
+        transition: all 0.3s ease; /* Define the transition property */
+        
+    }
+    .col-md-4:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.203);
+    }
+    h2, h3, h4, h5 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif; /* Define your desired font */
+        font-weight: bold; /* Define your desired font weight */
+    }
+    h4 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    h5 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif; /* Define your desired font */
+        font-weight: normal; /* Define your desired font weight */
+        font-size:medium;
+    }
+</style>
+<div class="container">
+    <h2>Workout Plan</h2>
+    <h3>Category: {{ category }}</h3>
+    
+    {% if workouts %}
+        {% for i in workouts %}
+            <div class="card">
+                <div class="card-body">
+                    <h4>{{ i.Day }}</h4>
+
+                    {% if not i.Rest %}
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5>Warm-up</h5>
+                                <ul>
+                                    {% for exercise in i.Warm_up.exercises %}
+                                        <li>{{ exercise }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h5>Strength Training</h5>
+                                <ul>
+                                    {% for exercise in i.Strength_Training.exercises %}
+                                        <li>{{ exercise }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                {% if i.Cardio %}
+                                    <h5>Cardio</h5>
+                                    <ul>
+                                        {% for exercise in i.Cardio %}
+                                            <li>{{ exercise }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% else %}
+                        <h4>Rest</h4>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No workout plan available.</p>
+    {% endif %}
+</div>
+{% endblock content %}

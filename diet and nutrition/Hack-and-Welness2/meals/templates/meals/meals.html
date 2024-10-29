@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+    <title>Ingredients</title>
+{% endblock title %}
+{% block content %}
+    {% if meals %}
+    <ul> <h2 style="text-align: center;font-weight:bold;font-size:60px ;color: #15819e;">Meals</h2>
+        {% for meal in meals %}
+        <div class="content">
+            <p style="text-align: center;font-size: 25px;"><a href="{{ meal.get_absolute_url }}"style="color:#2761DE;">{{ meal.name }}</a></p>
+          </div>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No Meals</p>
+    {% endif %}
+{% endblock content %}
